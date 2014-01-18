@@ -1,18 +1,73 @@
 body {
-    background:#000 url(../assets/logo.png) top left no-repeat;
-    color:#ccc;
-    font-family:"ProggyCleanTTSZ", "Fixedsys Excelsior 3.01", sans-serif;
+    background: #000 url(../assets/bg.gif) fixed;
+    color: #fff;
+    font-family: verdana, tahoma, arial, sans-serif;
     font-size:12pt;
 }
 img {
-    display:block;
     margin:0 auto;
 }
-h1 {
-    display:block;
-    text-align:center;
+a:link, a:visited, a:active { 
+    color: #ccc; 
+    text-decoration: none;
 }
-.copyright {
-    font-size:small;
-    text-align:center;
+a:hover { 
+    color: #fff;
+    text-decoration: none;
+}
+
+#wrapper { 
+    background: rgba(64,64,64,0.5) url(../assets/scanlines.png);
+    border-radius: 32px;
+    box-shadow: 0 0 5px 5px rgba(64,64,64,0.5);
+    margin: 30px auto;
+    min-width: 1000px;
+    padding-bottom: 0 10px 32px;
+    text-align: left;
+    width: 90%;
+}
+
+#header {
+    min-height: 60px; 
+    text-align: left; 
+    margin-top: 5px; 
+    padding: 20px 20px 5px; 
+
+}
+#header h1, #header h1 a, #header h1 a:hover {
+    color: #BB2F17;
+    font-size: 36px; 
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow:
+       -1px -1px 0 #000,                                                                     
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+}
+
+.section {
+    background: #232323
+    border: 1px solid #404040;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.section h3 {
+    background: #010101;                                                                     
+    background-image: url(../assets/scanlines.png), linear-gradient(to bottom, #232323 0%,#010101 100%);
+    font-weight: bold; 
+    padding: 8px; 
+    color: #fff;
+}
+.section h3 a:link, .section h3 a:visited, .section h3 a:active {
+    color: #fff;
+}
+
+
+
+#footer {
+    font-size: small;
+    text-align: center;
 }

@@ -4,16 +4,22 @@
         <meta charset="utf-8">
         <title>Bunchies.org - {{ page.title }}</title>
         <meta name="author" content="Kesha">
-        <link rel="icon" type="image/png" href="/assets/favico.png"/>
+        <link rel="icon" type="image/gif" href="/assets/favicon.gif"/>
         <link rel="stylesheet" href="/css/css.css" type="text/css" media="screen, projection"/>
     </head>
     <body>
-        <p> 
-            <img src="./assets/bunchies.gif" alt="bunchies.gif"/> 
-        </p> 
-        <h1> 
-            Bunchies.org 
-        </h1>
-        {{ content }}
+        <div id="wrapper">
+            <div id="header">
+                <h1> 
+                    Bunchies.org 
+                </h1>
+            </div>
+            <div id="content">
+                {{ content }}
+            </div>
+            <div id="footer">
+                &copy; 2003-2013 Bunchie Comrades. Contact me at <a href="mailto:kesha@bunchies.org">kesha@bunchies.org</a> 
+            </div>
+        </div>
     </body>
 </html>
