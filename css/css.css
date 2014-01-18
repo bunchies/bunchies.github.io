@@ -47,7 +47,7 @@ a:hover {
 }
 
 .section {
-    background: #232323
+    background: #232323;
     border: 1px solid #404040;
     margin: 10px 0;
     padding: 0;
@@ -58,7 +58,7 @@ a:hover {
     background: #010101;                                                                     
     background-image: url(../assets/scanlines.png), linear-gradient(to bottom, #232323 0%,#010101 100%);
     font-weight: bold; 
-    padding: 8px; 
+    padding: 0 0 8px; 
     color: #fff;
 }
 .section h3 a:link, .section h3 a:visited, .section h3 a:active {
